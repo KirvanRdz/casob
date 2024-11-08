@@ -1,0 +1,323 @@
+/* Estilos generales */
+.body-login {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Tarjeta de inicio de sesión */
+.login-card {
+    background-color: #fff;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Título */
+.login-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Grupo de entrada */
+.input-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 0.75rem;
+    padding-right: 2.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.input-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #888;
+}
+
+/* Botón de inicio de sesión */
+.login-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos de alerta comunes */
+.alert {
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Alerta de éxito */
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+/* Alerta de advertencia */
+.alert-warning {
+    background-color: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+}
+
+/* Alerta de error */
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Estilos generales */
+.invoice-page {
+    width: 90%; /* Ajustar para abarcar más ancho */
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-form {
+    
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #555;
+}
+
+.form-group input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.btn-submit {
+    padding: 0.75rem 1.5rem; /* Ancho del padding ajustado para reducir tamaño */
+    background-color: #47c767;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline-block; /* Hace que el botón ocupe solo el ancho de su contenido */
+    width: 250px;
+    text-align: center; /* Centra el texto dentro del botón */
+    margin: 0.5rem 0; /* Agrega un pequeño margen para separación */
+}
+
+.btn-cancel {
+    padding: 0.75rem;
+    background-color: #737573;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 250px;
+}
+
+.btn-submit:hover {
+    background-color: #00b33c;
+}
+
+.invoice-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.invoice-list th, .invoice-list td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.invoice-list th {
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.invoice-list tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.btn-edit, .btn-delete {
+    padding: 0.5rem 1rem;
+    margin-right: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    color: #fff;
+}
+
+.btn-edit {
+    background-color: #a6a809;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-edit:hover {
+    background-color: #8ea819;
+}
+
+.btn-delete:hover {
+    background-color: #c82333;
+}
+
+
+/* Estilos del Navbar */
+.header-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu-icon .menu-toggle {
+    color: #333;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.user-menu {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.user-toggle {
+    display: flex;
+    align-items: center;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.user-email {
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Dropdown del usuario */
+.user-dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    width: 150px;
+    margin-top: 0.5rem;
+    z-index: 10;
+}
+
+.user-dropdown-item {
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-top: 1px solid #e9ecef;
+}
+
+.user-dropdown-item i {
+    margin-right: 0.5rem;
+    color: #007bff;
+}
+
+.user-dropdown-item:hover {
+    background-color: #f8f9fa;
+}
+
+.button-link {
+    background: none;
+    border: none;
+    color: #007bff; /* Cambia esto al color de tu preferencia */
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+}
+
+/* Estilos generales para el footer */
+.main-footer {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0; /* Espaciado */
+    text-align: center; /* Centrar el contenido */
+    font-family: Arial, sans-serif; /* Tipografía simple */
+    position: fixed; /* Fijo en la parte inferior */
+    width: 100%; /* Abarcar todo el ancho */
+    bottom: 0; /* Posicionar en el fondo */
+    left: 0;
+}
+
+/* Contenedor de la información del footer */
+.footer-content {
+    font-size: 14px; /* Tamaño de texto más pequeño */
+    font-weight: normal; /* Peso normal */
+}
+
+/* Resaltar la versión en negrita */
+.footer-content b {
+    font-weight: bold;
+}
