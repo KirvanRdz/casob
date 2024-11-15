@@ -56,6 +56,10 @@ cd Frontend
 
 La aplicación frontend estará disponible en http://localhost:3000.
 
+los accesos para el Login del frontend son los siguientes:
+email: admin@vanity.com.mx
+password: admin123
+
 ### Notas 
 La aplicación está configurada para ejecutarse en los puertos 8080 (backend) y 3000 (frontend). Asegúrate de que esos puertos estén disponibles o ajusta la configuración según sea necesario.
 La comunicación entre frontend y backend se realiza a través de solicitudes HTTP, asegurando que ambos proyectos deben estar ejecutándose al mismo tiempo para que la funcionalidad sea completa.
