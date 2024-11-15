@@ -111,8 +111,6 @@ const InvoicePage = () => {
         const updateDataResponse = await updateDataInvoice(currentInvoice, currentInvoice.id);
         if (updateDataResponse.status === 200) {
             setInvoices(invoices.map(inv => (inv.id === currentInvoice.id ? currentInvoice : inv)));
-            setIsTableDisabled(false);
-            resetForm();
             alert(updateDataResponse.msg);
         } else {
 
@@ -133,7 +131,11 @@ const InvoicePage = () => {
         const updateFileResponse = await updateFileInvoice(formData, currentInvoice.id);
         if (updateFileResponse.status === 200) {
             setInvoices(invoices.map(inv => (inv.id === currentInvoice.id ? currentInvoice : inv)));
+            resetForm(); // Reiniciar el formulario
+            setIsEditing(false); // Desactivar el estado de edición
+            setIsTableDisabled(false); // Habilitar la tabla nuevamente
             alert(updateFileResponse.msg);
+            
         } else {
 
             alert(updateFileResponse.msg);

@@ -134,7 +134,7 @@ const updateFileInvoice = async (req, res, next) => {
 				return res.status(400).json({ msg: 'No fue posible actualizar las url de las facturas, vuelve a cargar los archivos',status:400 });
 			}
 
-			return res.status(200).json({ msg: 'Factura actualizada correctamente', data: newInvoice,status:400 });
+			return res.status(200).json({ msg: 'Factura actualizada correctamente', data: newInvoice,status:200 });
 		});
 	} catch (err) {
 		console.log(err)
